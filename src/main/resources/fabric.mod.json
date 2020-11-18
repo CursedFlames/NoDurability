@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "nodurability",
+  "version": "${version}",
+
+  "name": "No Durability",
+  "description": "Completely remove item durability from the game.",
+  "authors": [
+    "CursedFlames"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/no-durability",
+    "sources": "https://github.com/CursedFlames/NoDurability",
+    "issues": "https://github.com/CursedFlames/NoDurability/issues"
+  },
+
+  "license": "MIT",
+  "icon": "assets/nodurability/icon.png",
+
+  "environment": "*",
+  "mixins": [
+    "nodurability.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}

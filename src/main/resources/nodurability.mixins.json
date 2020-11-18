@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cursedflames.nodurability.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinItem"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
